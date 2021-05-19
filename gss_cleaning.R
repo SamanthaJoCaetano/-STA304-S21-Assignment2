@@ -343,4 +343,5 @@ gss <- gss %>%
     number_total_children_intention=="Don't" ~ as.numeric(NA)
   )) 
 
+
 write_csv(gss, "gss_clean.csv")
